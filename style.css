@@ -4,16 +4,9 @@
     box-sizing: border-box;
     font-family: system-ui;
 }
-:root{
-	--background: #c3c0ba;
-	--white: #fff;
-	--one: #b40e5c;
-	--two: #661b6b;
-	--black: #54585d;
-	--process: #a5a5a5;
-}
+
 body{
-    background: var(--background);
+    background: #c3c0ba;
 }
 .col-div-3{
     width: 25%; 
@@ -42,7 +35,7 @@ body{
 .resume-main{
     width: 700px;
     height: 800px; 
-	background: linear-gradient(var(--one), var(--two));
+	background: linear-gradient(#b40e5c, #661b6b);
 	margin: 50px auto;
 	box-shadow:5px 5px 5px 5px #54585d33;
 }
@@ -54,7 +47,7 @@ body{
 .right-box{
     width: 65%;
     float: left;
-    background-color: var(--white);
+    background-color: #fff;
     height: 700px;
 	margin: 50px 0px;
     border-radius: 50px 0px 0px 50px;
@@ -64,7 +57,7 @@ body{
 .profile{
     width: 150px;
     height: 150px;
-    border: 3px solid var(--white); 
+    border: 3px solid #fff; 
 	padding: 7px;
     border-radius: 50%;
     margin: 20px auto;
@@ -79,24 +72,24 @@ body{
 .content-box h2{
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--white); 
+    color: #fff; 
 	letter-spacing: 1px; 
     font-size: 20px;
 }
 .hr1{
     border: none;
     height: 1px; 
-    background: var(--white); 
+    background: #fff; 
     margin-top: 3px;
 }
 .p1{
     font-size: 11px;
-    color: var(--white);
+    color: #fff;
     letter-spacing: 1px;
     padding-top: 12px;
 }
 #progress {
-    background: var(--process);
+    background: #a5a5a5;
     border-radius: 13px;
     height: 8px;
     width: 100%;
@@ -104,13 +97,13 @@ body{
 #progress:after {
     content: '';
     display: block;
-    background: var(--white);
+    background: #fff;
     width: 95%;
     height: 100%;
     border-radius: 9px;
 }
 #progress1 {
-    background: var(--process);
+    background: #a5a5a5;
     border-radius: 13px;
     height: 8px;
     width: 100%;
@@ -118,7 +111,7 @@ body{
 #progress1:after {
     content: '';
     display: block;
-    background: var(--white);
+    background: #fff;
     width: 30%;
     height: 100%;
     border-radius: 9px;
@@ -128,39 +121,39 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-top: 10px;
-    color: white;
+    color: #fff;
     font-weight: 500;
 }
 .p2{
     font-size: 13px; 
     margin-bottom: 5px; 
     margin-top: 5px; 
-    color: var(--white);
+    color: #fff;
 }
 .circle{
-    color: var(--white); 
+    color: #fff; 
     font-size: 14px!important; 
     margin-top: 7px;
 }
 .circle1{
-    color: var(--process); 
+    color: #a5a5a5; 
     font-size: 14px!important; 
     margin-top: 7px;
 }
 .in{
-    background: var(--white);
-    color: var(--one);
+    background: #fff;
+    color: #b40e5c;
     padding: 8px;
     border-radius: 20px; 
     font-size: 14px!important;
 }
 .inp{
-    color: var(--white); 
+    color: #fff; 
     font-size: 11px;
 }
 .interest ul{
     margin-left: 25px;
-    color: white;
+    color: #fff;
 }
 .col3{
     text-align: center;
@@ -168,11 +161,11 @@ body{
 h1{
     font-size: 39px; 
     text-transform: uppercase; 
-    color: var(--black); 
+    color: #54585d; 
     line-height: 50px;
 }
 h1 span{
-    color: var(--one);
+    color: #b40e5c;
     font-size: 45px;
 }
 .p3{
@@ -183,21 +176,21 @@ h1 span{
 .heading{
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--one); 
+    color: #b40e5c; 
 	letter-spacing: 1px; 
     font-size: 20px;
 }
 .hr2{
     border: none; 
     height: 1px; 
-    background: var(--black); 
+    background: #54585d; 
     margin-top: 3px;
 }
 .p5{
     font-weight: 700;
-    color: var(--black);
+    color: #54585d;
 }
 .span1{
     font-size: 12px;
-    color: var(--black);
+    color: #54585d;
 }
