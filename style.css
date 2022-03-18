@@ -8,23 +8,15 @@
 body{
     background: #c3c0ba;
 }
-.col-div-3{
-    width: 25%; 
-    float: left;
-}
-.col-div-7{
-    width: 75%; 
-    float: left;
-}
-.col-div-4{
+.duration{
     width: 35%; 
     float: left;
 }
-.col-div-8{
+.skill-edu{
     width: 65%; 
     float: left;
 }
-.col-div-6{
+.skills{
     width: 50%; 
     float: left; 
     position: relative;
